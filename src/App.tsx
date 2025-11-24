@@ -80,11 +80,11 @@ function App() {
             </div>
 
             <a
-              href="tel:8247387557"
+              href="tel:23456"
               className="flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
             >
               <Phone className="w-5 h-5" />
-              <span className="font-semibold">8247387557</span>
+              <span className="font-semibold">8008398704</span>
             </a>
           </div>
         </div>
