@@ -9,7 +9,7 @@ function App() {
     setShowModal(true);
   }, []);
 
-  const whatsappBase = "https://wa.me/918247387557"; // Replace with actual number
+  const whatsappBase = "https://wa.me/918008398704"; // Replace with actual number
   const premiumMsg = "?text=Hi%20Mahalaxmi%20Engineering%20Works%2C%20I%20want%20to%20book%20a%20Premium%20Service.%20Please%20share%20available%20slots%20and%20charges.";
   const normalMsg = "?text=Hi%20Mahalaxmi%20Engineering%20Works%2C%20I%20want%20to%20book%20a%20Normal%20Service.%20Please%20confirm%20available%20time.";
   const chatMsg = "?text=Hi%20Mahalaxmi%20Engineering%20Works%2C%20I%20have%20a%20question%20about%20your%20services.";
@@ -35,26 +35,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Under Development Popup */}
-      {showModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white rounded-lg p-8 max-w-sm mx-auto text-center shadow-lg">
-            <h2 className="text-2xl font-bold text-red-600 mb-4">
-              🚧 Website Under Development
-            </h2>
-            <p className="text-gray-700 mb-6">
-              Hi there! This website is still being developed. Some features may not be available yet.
-            </p>
-            <button
-              onClick={() => setShowModal(false)}
-              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors"
-            >
-              Got it!
-            </button>
-          </div>
-        </div>
-      )}
-
       {/* Header */}
       <header className="relative shadow-md sticky top-0 z-50 overflow-hidden">
         <div
@@ -69,9 +49,9 @@ function App() {
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div className="relative container mx-auto px-4 py-8 text-center text-white">
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-0">
             <div>
-              <h1 className="text-4xl md:text-3xl font-bold text-orange-400 drop-shadow-[0_0_10px_rgba(255,165,0,0.9)]">
+              <h1 className="text-3xl md:text-3xl font-bold text-orange-400 drop-shadow-[0_0_10px_rgba(255,165,0,0.9)]">
                 Mahalaxmi Engineering Works
               </h1>
               <p className="text-2xl md:text-base text-gray-100 mt-2">
@@ -80,7 +60,7 @@ function App() {
             </div>
 
             <a
-              href="tel:23456"
+              href="tel:8008398704"
               className="flex items-center gap-2 bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors shadow-lg"
             >
               <Phone className="w-5 h-5" />
@@ -104,81 +84,105 @@ function App() {
 
           {/* Service Icons Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-6xl mx-auto">
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-gray-700 to-gray-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Flame className="w-24 h-24 text-orange-500 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=600" 
+                alt="Welding Services"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Flame className="w-8 h-8 text-orange-400" />
                 <p className="text-white font-semibold">Welding Services</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-blue-700 to-blue-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Factory className="w-24 h-24 text-blue-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600" 
+                alt="Fabrication"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Factory className="w-8 h-8 text-blue-400" />
                 <p className="text-white font-semibold">Fabrication</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-red-700 to-red-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Wrench className="w-24 h-24 text-red-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600" 
+                alt="Gate & Grill"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Wrench className="w-8 h-8 text-red-400" />
                 <p className="text-white font-semibold">Gate & Grill</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-gray-600 to-gray-800">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Shield className="w-24 h-24 text-gray-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600" 
+                alt="Iron & Steel"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Shield className="w-8 h-8 text-gray-400" />
                 <p className="text-white font-semibold">Iron & Steel</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-purple-700 to-purple-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Boxes className="w-24 h-24 text-purple-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600" 
+                alt="Rolling Shutters"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Boxes className="w-8 h-8 text-purple-400" />
                 <p className="text-white font-semibold">Rolling Shutters</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-green-700 to-green-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Cog className="w-24 h-24 text-green-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600" 
+                alt="Machine Repair"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Cog className="w-8 h-8 text-green-400" />
                 <p className="text-white font-semibold">Machine Repair</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-yellow-600 to-yellow-800">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Hammer className="w-24 h-24 text-yellow-200 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600" 
+                alt="Custom Work"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Hammer className="w-8 h-8 text-yellow-400" />
                 <p className="text-white font-semibold">Custom Work</p>
               </div>
             </div>
 
-            <div className="relative rounded-lg overflow-hidden shadow-md h-60 bg-gradient-to-br from-indigo-700 to-indigo-900">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Settings className="w-24 h-24 text-indigo-300 opacity-70" />
-              </div>
-              <div className="absolute bottom-0 left-0 bg-black bg-opacity-70 w-full px-4 py-3 flex items-center gap-2">
+            <div className="relative rounded-lg overflow-hidden shadow-md h-60">
+              <img 
+                src="https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=600" 
+                alt="Metal Works"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+              <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Settings className="w-8 h-8 text-indigo-400" />
                 <p className="text-white font-semibold">Metal Works</p>
               </div>
@@ -231,12 +235,11 @@ function App() {
 
           {/* Shop Image Card */}
           <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
-            <div className="w-full h-80 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-              <div className="text-center">
-                <Factory className="w-32 h-32 text-orange-500 mx-auto mb-4" />
-                <p className="text-white text-xl font-semibold">Workshop Image Coming Soon</p>
-              </div>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800" 
+              alt="Welding Workshop"
+              className="w-full h-80 object-cover"
+            />
             <div className="bg-orange-600 text-white py-3">
               <p className="font-semibold tracking-wide">
                 Mahalaxmi Engineering Works
@@ -281,18 +284,44 @@ function App() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <div className="aspect-video bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-                  <Flame className="w-24 h-24 text-orange-500 opacity-50" />
-                </div>
-                <div className="p-4">
-                  <p className="text-sm text-gray-700 text-center">
-                    Project Gallery - Image {item}
-                  </p>
-                </div>
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <img 
+                src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=600" 
+                alt="Metal Welding Work"
+                className="aspect-video w-full object-cover"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-700 text-center font-semibold">
+                  Professional Welding Services
+                </p>
               </div>
-            ))}
+            </div>
+            
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <img 
+                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600" 
+                alt="Metal Fabrication"
+                className="aspect-video w-full object-cover"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-700 text-center font-semibold">
+                  Custom Metal Fabrication
+                </p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+              <img 
+                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600" 
+                alt="Gate and Grill Work"
+                className="aspect-video w-full object-cover"
+              />
+              <div className="p-4">
+                <p className="text-sm text-gray-700 text-center font-semibold">
+                  Gates & Security Grills
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -394,11 +423,12 @@ function App() {
 
           {/* Map Placeholder */}
           <div className="mt-12 max-w-4xl mx-auto">
-            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl h-64 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 text-orange-500 mx-auto mb-4" />
-                <p className="text-gray-400">Map integration coming soon</p>
-              </div>
+            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl h-64">
+              <img 
+                src="https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=1200" 
+                alt="Location Map"
+                className="w-full h-full object-cover opacity-60"
+              />
             </div>
 
             {/* Caption */}
@@ -441,4 +471,3 @@ function App() {
 }
 
 export default App;
-
