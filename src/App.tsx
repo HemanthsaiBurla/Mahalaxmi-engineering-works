@@ -86,7 +86,7 @@ function App() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-6xl mx-auto">
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=600" 
+                src="https://media.istockphoto.com/id/488539284/photo/welding-with-sparks.jpg?s=612x612&w=0&k=20&c=WU-Tj8wCKmktQEEFtfJZAiJTIxtF2kKUpy7m0X9yO3U=" 
                 alt="Welding Services"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -99,7 +99,7 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600" 
+                src="https://www.roguefab.com/wp-content/uploads/2022/01/What-is-metal-fabrication-and-its-techniques-applications-and-types.jpg" 
                 alt="Fabrication"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -112,7 +112,7 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600" 
+                src="https://image.made-in-china.com/203f0j00cktoYIVBHebP/Latest-House-Main-Gate-Grill-Designs-Garden-Door-Wrought-Iron-Gate.webp" 
                 alt="Gate & Grill"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -125,7 +125,7 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=600" 
+                src="https://sreemetaliks.com/blog//public/admin/assets/images/blog/banner/desktop/1717737743-What%20is%20the%20Difference%20Between%20Iron%20and%20Steel.jpg" 
                 alt="Iron & Steel"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -138,7 +138,7 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600" 
+                src="https://img500.exportersindia.com/product_images/bc-500/2018/7/5226407/automatic-rolling-shutter-1530941738-4072096.jpeg" 
                 alt="Rolling Shutters"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -151,20 +151,20 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600" 
+                src="https://m.media-amazon.com/images/I/61MGMlK1RQL._AC_UF1000,1000_QL80_.jpg" 
                 alt="Machine Repair"
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
               <div className="absolute bottom-0 left-0 w-full px-4 py-3 flex items-center gap-2">
                 <Cog className="w-8 h-8 text-green-400" />
-                <p className="text-white font-semibold">Machine Repair</p>
+                <p className="text-white font-semibold">Balcony grills</p>
               </div>
             </div>
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600" 
+                src="https://cdn.shopify.com/s/files/1/0613/8458/9369/files/Art_and_Decorative_Items_600x600.png?v=1715350614" 
                 alt="Custom Work"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -177,7 +177,7 @@ function App() {
 
             <div className="relative rounded-lg overflow-hidden shadow-md h-60">
               <img 
-                src="https://images.unsplash.com/photo-1590859808308-3d2d9c515b1a?w=600" 
+                src="https://b2170971.smushcdn.com/2170971/wp-content/uploads/2024/01/welding2.jpg?lossy=1&strip=1&webp=1" 
                 alt="Metal Works"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -236,7 +236,7 @@ function App() {
           {/* Shop Image Card */}
           <div className="max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200 bg-white">
             <img 
-              src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800" 
+              src="https://media.istockphoto.com/id/636055226/photo/workshop-on-production-of-handling-removable-devices.jpg?s=612x612&w=0&k=20&c=o9O1hokyCGnU5Pa_nnDGBeoIHSo82XkacV_Qkz7GYeo=" 
               alt="Welding Workshop"
               className="w-full h-80 object-cover"
             />
@@ -286,7 +286,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=600" 
+                src="https://www.dtsfabrication.com/wp-content/uploads/2022/02/DTSF-Hero-Welding-Services-3.jpg" 
                 alt="Metal Welding Work"
                 className="aspect-video w-full object-cover"
               />
@@ -299,7 +299,7 @@ function App() {
             
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600" 
+                src="https://www.pendarvismanufacturing.com/assets/images/content/fabrication/metal-fabrication.jpg" 
                 alt="Metal Fabrication"
                 className="aspect-video w-full object-cover"
               />
@@ -312,7 +312,7 @@ function App() {
             
             <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img 
-                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600" 
+                src="https://authoritydockanddoor.com/wp-content/uploads/2019/05/FINAL-SECURITY-GATE-1.jpg" 
                 alt="Gate and Grill Work"
                 className="aspect-video w-full object-cover"
               />
@@ -371,7 +371,7 @@ function App() {
                   "At Mahalaxmi Engineering Works, we don't just complete projects – we build lasting relationships through honest service and quality craftsmanship."
                 </p>
                 <div className="text-right font-semibold text-gray-900">
-                  <p>- [Owner Name]</p>
+                  <p>- [Sharma Bikas B.Tech]</p>
                   <p>- Certified Welder & Engineer</p>
                 </div>
               </div>
@@ -392,8 +392,8 @@ function App() {
                 <Phone className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-bold text-xl mb-2">Call Us</h3>
-              <a href="tel:8247387557" className="text-orange-300 hover:text-orange-200 text-lg">
-              8247387557
+              <a href="tel:918008398704" className="text-orange-300 hover:text-orange-200 text-lg">
+              918008398704
               </a>
             </div>
             <div className="text-center">
@@ -421,15 +421,22 @@ function App() {
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="mt-12 max-w-4xl mx-auto">
-            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl h-64">
-              <img 
-                src="https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=1200" 
-                alt="Location Map"
-                className="w-full h-full object-cover opacity-60"
-              />
-            </div>
+          {/* Map Placeholder / Dummy Location */}
+<div className="mt-12 max-w-4xl mx-auto">
+  <div className="bg-gray-800 rounded-lg overflow-hidden shadow-xl h-64">
+    {/* Dummy Google Map Embed */}
+    <iframe
+      title="Sunitha Electrical & Winding Works Location"
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d15177.131472683128!2d79.52662035!3d18.01207145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1764215617174!5m2!1sen!2sin"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+  
+</div>
+
 
             {/* Caption */}
             <div className="text-center mt-4">
@@ -437,7 +444,7 @@ function App() {
                 Mahalaxmi Engineering Works
               </p>
               <p className="text-gray-500 text-sm">
-                [Add your complete address here]
+                [Address: enumamula market, balajinagar 110ft cable road, warangal]
               </p>
             </div>
           </div>
@@ -448,7 +455,7 @@ function App() {
       <footer className="bg-gray-950 text-gray-400 py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="mb-4">
-            &copy; 2025 Mahalaxmi Engineering Works | All Rights Reserved
+            &copy; 2025 Mahalaxmi Engineering Works | Developer - Hemanthsai Burla | All Rights Reserved
           </p>
           <p className="text-sm">
             Professional Welding & Engineering Services
